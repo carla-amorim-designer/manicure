@@ -25,9 +25,7 @@ header img {
 }
 
 @media screen and (max-width: 768px){
-    section#hero{
-        height: 90vh;
-    }
+    
     
     div#itens{
     height: 100vh;
@@ -45,7 +43,7 @@ section#hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../imagens/carla-mobile.jpeg') center/cover no-repeat, black;
+    background: url('../imagens/carla-mobile.jpeg') center/cover no-repeat;
     min-height: 100vh;
     color: white;
     text-align: center;
@@ -57,7 +55,7 @@ section#hero {
 
 div{
     background: linear-gradient(to bottom, #911846, #50353F);
-    height: 613px;
+    min-height: 100vh;
 }
 
 
