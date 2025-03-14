@@ -25,6 +25,9 @@ header img {
 }
 
 @media screen and (max-width: 768px){
+    section#hero{
+        background: url('../imagens/carla.jpeg') center/cover no-repeat, black;
+    }
     div#itens{
     height: 100vh;
     width: 100vw;
@@ -41,12 +44,19 @@ section#hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../imagens/carla.jpeg') center/cover no-repeat, black;
+    background: url('../imagens/carla-mobile.jpeg') center/cover no-repeat, black;
     min-height: 100vh;
     color: white;
     text-align: center;
     flex-direction: column;
     padding: 20px;
+    margin: auto;
+    max-width: 500px;
+}
+
+div{
+    background: linear-gradient(to bottom, #911846, #50353F);
+    height: 613px;
 }
 
 

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+   
     
     section#conheca-o-hotel > ul.gride > li{
         height: 350px;
@@ -20,15 +21,8 @@
 }
 
 @media screen and (min-width: 992px) {
-    section#hero{
-        max-width: 1000px;
-        margin: auto;
-        
-    }
-    div{
-        background: linear-gradient(to bottom, #911846, #50353F);
-        height: 652px;
-    }
+    
+    
 
     
 
