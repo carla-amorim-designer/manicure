@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    section#conheca-o-hotel > ul.gride > li{
+        height: 350px;
+    }
+
+    section#conheca-o-hotel > ul.gride > li.smal{
+        flex-basis: 40%;  
+   }
+   section#conheca-o-hotel > ul.gride > li.large{
+       flex-basis: 60%;
+   }
+
+   section#ctt > ul.gride{
+    flex-direction: row;}
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    section#hero{
+        max-width: 1000px;
+        margin: auto;
+        
+    }
+    div{
+        background: linear-gradient(to bottom, #911846, #50353F);
+        height: 652px;
+    }
+
+    
+
+    section#conheca-o-hotel > ul.gride > li{
+        height: 350px;
+    }
+
+    section#conheca-o-hotel > ul.gride > li.smal{
+        flex-basis: 40%;  
+   }
+   section#conheca-o-hotel > ul.gride > li.large{
+       flex-basis: 60%;
+   }
+
+   section#ctt > ul.gride{
+    flex-direction: row;}
+
+    
+    div#itens{
+        display: block;
+    }
+
+    
+}

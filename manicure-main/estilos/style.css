@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+/*HEADER*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: white;
+    width: 100%;
+    padding: 15px 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+
+header img {
+    width: 180px;
+}
+
+@media screen and (max-width: 768px){
+    div#itens{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: fixed;
+    display: none;
+    }
+   
+}
+
+/*section hero*/
+
+section#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../imagens/carla.jpeg') center/cover no-repeat, black;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+section#hero > p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.103);
+}
+
+section#hero > h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.103);
+}
+
+section#hero > a#saiba{                                         
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.842);
+    text-decoration: none;
+    color: #191c03;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+section#hero > a#saiba:hover{
+    background-color: rgba(207, 207, 207, 0.863);
+}
+
+/*Connheca o hotel*/
+
+section#conheca-o-hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+section#conheca-o-hotel > h2{
+    font-size: 2em;
+    margin-bottom: 35px;
+    color: #332B2E;
+}
+
+section#conheca-o-hotel > p{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section#conheca-o-hotel > hr{
+    width: 200px;
+    height: 2px;
+    background-color: #332B2E;
+    margin-bottom: 70px;
+    border: none;
+}
+/*iMAGENS*/
+section#conheca-o-hotel >  ul.gride{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section#conheca-o-hotel > ul.gride > li{
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+}
+section#conheca-o-hotel > ul.gride > li.smal, .large{flex-basis: 100%;}
+
+/*CARACTERISTICAS*/
+
+section#ctt{
+    background-color: #332B2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    color: white;
+    text-align: center;
+}
+
+section#ctt > h2{
+    font-size: 2em;
+    margin-bottom: 35px;
+    color: white;
+}
+
+section#ctt > p{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section#ctt > hr{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 70px;
+    border: none;
+}
+
+/*Caract listas*/
+
+section#ctt > ul.gride{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+section#ctt > ul.gride > li{
+    padding: 0px 30px;
+    text-align: center;
+    list-style: none;
+    
+}
+
+section#ctt > ul.gride > li > span{
+    font-size: 50px;
+    color: #CCD4D1;
+    
+    margin: 30px 0px;
+}
+
+
+section#ctt > ul.gride > li > h3{
+    color: #CCD4D1;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+/*newletter*/
+
+section#new{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    align-items: center;
+    color: #CCD4D1;
+}
+
+section#new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+section#new > h2{
+    font-size: 2em;
+    margin-bottom: 35px;
+    color: #CCD4D1;
+}
+
+section#new > p{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+section#new > hr{
+    width: 200px;
+    height: 2px;
+    background-color: #CCD4D1;
+    margin-bottom: 70px;
+    border: none;
+}
+
+section#new > form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+section#new > form > input{
+    padding: 15px;
+    border: 1px solid #CCD4D1;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+section#new > form > button{
+
+    padding: 15px;
+    color: #fff;
+    background-color: #CCD4D1;
+    text-transform: uppercase;
+    border: none;
+}
+
+section#new > form > button:hover{
+    background-color: #CCD4D1;
+}
+
+/*Foooter*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1719;
+    padding: 50px 0px;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+footer > ul > li{
+    color: #CCD4D1;
+    margin-right: 10px;
+}
+
+footer > ul > li:last-child{
+    margin-right: 0px;
+}
+footer > p{
+    text-align: center;
+    color: #CCD4D1;
+}
